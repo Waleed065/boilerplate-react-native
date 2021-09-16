@@ -4,8 +4,9 @@ import {Provider} from 'react-redux';
 import {NavigationContainer} from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen';
 
-import {store} from './store';
+import {persistor, store} from './store';
 import ThemeConfig from './theme';
+import {PersistGate} from 'redux-persist/integration/react';
 
 export default function App() {
   useEffect(() => {
@@ -14,13 +15,15 @@ export default function App() {
 
   return (
     <Provider store={store}>
-      <ThemeConfig>
-        <NavigationContainer>
-          <View>
-            <Text>React Native Bolier Plate</Text>
-          </View>
-        </NavigationContainer>
-      </ThemeConfig>
+      <PersistGate persistor={persistor} loading={null}>
+        <ThemeConfig>
+          <NavigationContainer>
+            <View>
+              <Text>React Native Bolier Plate</Text>
+            </View>
+          </NavigationContainer>
+        </ThemeConfig>
+      </PersistGate>
     </Provider>
   );
 }
