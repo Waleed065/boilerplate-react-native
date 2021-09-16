@@ -1,12 +1,13 @@
 {
-  "name": "vurtos",
+  "name": "boilerplate",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "npx react-native run-android",
     "ios": "npx react-native run-ios",
     "start": "npx react-native start",
-    "pod": "cd ios && pod install && cd .."
+    "pod": "cd ios && pod install && cd ..",
+    "push": "git add . && git commit -m 'rn-boilerplate' && git push -u origin master"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.8",

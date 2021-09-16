@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* vurtosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* vurtosTests.m */; };
+		00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* boilerplateTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		6172F2D35A4C3AA820D92908 /* libPods-vurtos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-vurtos.a */; };
-		7EF68E3733C33B6898317E18 /* libPods-vurtos-vurtosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-vurtos-vurtosTests.a */; };
+		6172F2D35A4C3AA820D92908 /* libPods-boilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-boilerplate.a */; };
+		7EF68E3733C33B6898317E18 /* libPods-boilerplate-boilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-boilerplate-boilerplateTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -22,21 +22,21 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = vurtos;
+			remoteInfo = boilerplate;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* vurtosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vurtosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* boilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = boilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* vurtosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vurtosTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* vurtos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vurtos.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = vurtos/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = vurtos/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = vurtos/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = vurtos/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = vurtos/main.m; sourceTree = "<group>"; };
-		1D0AE47A65C8663E3B452821 /* Pods-vurtos-vurtosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vurtos-vurtosTests.release.xcconfig"; path = "Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* boilerplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = boilerplateTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* boilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = boilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = boilerplate/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = boilerplate/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = boilerplate/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = boilerplate/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = boilerplate/main.m; sourceTree = "<group>"; };
+		1D0AE47A65C8663E3B452821 /* Pods-boilerplate-boilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
 		3ABDD88026F2C5C40068E827 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
 		3ABDD88126F2C5C40068E827 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		3ABDD88226F2C5C40068E827 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
@@ -53,12 +53,12 @@
 		3ABDD88D26F2C5C40068E827 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
 		3ABDD88E26F2C5C40068E827 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
 		3ABDD88F26F2C5C40068E827 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
-		6423831EA8574132BED9D8CC /* libPods-vurtos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vurtos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C97AB639B58BBB4B15BBE30 /* Pods-vurtos-vurtosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vurtos-vurtosTests.debug.xcconfig"; path = "Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests.debug.xcconfig"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = vurtos/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ABFE59519B596E51CEFDCCC0 /* libPods-vurtos-vurtosTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vurtos-vurtosTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0A881CF5CF3F2B244570E2A /* Pods-vurtos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vurtos.debug.xcconfig"; path = "Target Support Files/Pods-vurtos/Pods-vurtos.debug.xcconfig"; sourceTree = "<group>"; };
-		D00AAFFCFCFDA5787532823F /* Pods-vurtos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vurtos.release.xcconfig"; path = "Target Support Files/Pods-vurtos/Pods-vurtos.release.xcconfig"; sourceTree = "<group>"; };
+		6423831EA8574132BED9D8CC /* libPods-boilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C97AB639B58BBB4B15BBE30 /* Pods-boilerplate-boilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate-boilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = boilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABFE59519B596E51CEFDCCC0 /* libPods-boilerplate-boilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-boilerplate-boilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A881CF5CF3F2B244570E2A /* Pods-boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.debug.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		D00AAFFCFCFDA5787532823F /* Pods-boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-boilerplate.release.xcconfig"; path = "Target Support Files/Pods-boilerplate/Pods-boilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EF68E3733C33B6898317E18 /* libPods-vurtos-vurtosTests.a in Frameworks */,
+				7EF68E3733C33B6898317E18 /* libPods-boilerplate-boilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,20 +75,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6172F2D35A4C3AA820D92908 /* libPods-vurtos.a in Frameworks */,
+				6172F2D35A4C3AA820D92908 /* libPods-boilerplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* vurtosTests */ = {
+		00E356EF1AD99517003FC87E /* boilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* vurtosTests.m */,
+				00E356F21AD99517003FC87E /* boilerplateTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = vurtosTests;
+			path = boilerplateTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -99,7 +99,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* vurtos */ = {
+		13B07FAE1A68108700A75B9A /* boilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				3ABDD87F26F2C56C0068E827 /* Fonts */,
@@ -110,15 +110,15 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = vurtos;
+			name = boilerplate;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6423831EA8574132BED9D8CC /* libPods-vurtos.a */,
-				ABFE59519B596E51CEFDCCC0 /* libPods-vurtos-vurtosTests.a */,
+				6423831EA8574132BED9D8CC /* libPods-boilerplate.a */,
+				ABFE59519B596E51CEFDCCC0 /* libPods-boilerplate-boilerplateTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -156,9 +156,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* vurtos */,
+				13B07FAE1A68108700A75B9A /* boilerplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* vurtosTests */,
+				00E356EF1AD99517003FC87E /* boilerplateTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
@@ -171,8 +171,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* vurtos.app */,
-				00E356EE1AD99517003FC87E /* vurtosTests.xctest */,
+				13B07F961A680F5B00A75B9A /* boilerplate.app */,
+				00E356EE1AD99517003FC87E /* boilerplateTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -180,10 +180,10 @@
 		E233CBF5F47BEE60B243DCF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C0A881CF5CF3F2B244570E2A /* Pods-vurtos.debug.xcconfig */,
-				D00AAFFCFCFDA5787532823F /* Pods-vurtos.release.xcconfig */,
-				6C97AB639B58BBB4B15BBE30 /* Pods-vurtos-vurtosTests.debug.xcconfig */,
-				1D0AE47A65C8663E3B452821 /* Pods-vurtos-vurtosTests.release.xcconfig */,
+				C0A881CF5CF3F2B244570E2A /* Pods-boilerplate.debug.xcconfig */,
+				D00AAFFCFCFDA5787532823F /* Pods-boilerplate.release.xcconfig */,
+				6C97AB639B58BBB4B15BBE30 /* Pods-boilerplate-boilerplateTests.debug.xcconfig */,
+				1D0AE47A65C8663E3B452821 /* Pods-boilerplate-boilerplateTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* vurtosTests */ = {
+		00E356ED1AD99517003FC87E /* boilerplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vurtosTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */;
 			buildPhases = (
 				A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -207,14 +207,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = vurtosTests;
-			productName = vurtosTests;
-			productReference = 00E356EE1AD99517003FC87E /* vurtosTests.xctest */;
+			name = boilerplateTests;
+			productName = boilerplateTests;
+			productReference = 00E356EE1AD99517003FC87E /* boilerplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* vurtos */ = {
+		13B07F861A680F5B00A75B9A /* boilerplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vurtos" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */;
 			buildPhases = (
 				3E482C27206C4DEF2FE45063 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -229,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = vurtos;
-			productName = vurtos;
-			productReference = 13B07F961A680F5B00A75B9A /* vurtos.app */;
+			name = boilerplate;
+			productName = boilerplate;
+			productReference = 13B07F961A680F5B00A75B9A /* boilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vurtos" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -264,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* vurtos */,
-				00E356ED1AD99517003FC87E /* vurtosTests */,
+				13B07F861A680F5B00A75B9A /* boilerplate */,
+				00E356ED1AD99517003FC87E /* boilerplateTests */,
 			);
 		};
 /* End PBXProject section */
@@ -319,7 +319,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-vurtos-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-boilerplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -332,15 +332,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8B2CC8F2F7435273805B7652 /* [CP] Embed Pods Frameworks */ = {
@@ -349,15 +349,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vurtos-vurtosTests/Pods-vurtos-vurtosTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate-boilerplateTests/Pods-boilerplate-boilerplateTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A130D646172E58E1D159D8F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -375,7 +375,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-vurtos-vurtosTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-boilerplate-boilerplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -388,15 +388,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B219FD518498A3925775C57C /* [CP] Embed Pods Frameworks */ = {
@@ -405,15 +405,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vurtos/Pods-vurtos-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-boilerplate/Pods-boilerplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -442,7 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* vurtosTests.m in Sources */,
+				00E356F31AD99517003FC87E /* boilerplateTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,7 +460,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* vurtos */;
+			target = 13B07F861A680F5B00A75B9A /* boilerplate */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -468,14 +468,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-vurtos-vurtosTests.debug.xcconfig */;
+			baseConfigurationReference = 6C97AB639B58BBB4B15BBE30 /* Pods-boilerplate-boilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = vurtosTests/Info.plist;
+				INFOPLIST_FILE = boilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,17 +493,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vurtos.app/vurtos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-vurtos-vurtosTests.release.xcconfig */;
+			baseConfigurationReference = 1D0AE47A65C8663E3B452821 /* Pods-boilerplate-boilerplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = vurtosTests/Info.plist;
+				INFOPLIST_FILE = boilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -521,19 +521,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vurtos.app/vurtos";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/boilerplate.app/boilerplate";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-vurtos.debug.xcconfig */;
+			baseConfigurationReference = C0A881CF5CF3F2B244570E2A /* Pods-boilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = vurtos/Info.plist;
+				INFOPLIST_FILE = boilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -548,7 +548,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = vurtos;
+				PRODUCT_NAME = boilerplate;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -557,12 +557,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-vurtos.release.xcconfig */;
+			baseConfigurationReference = D00AAFFCFCFDA5787532823F /* Pods-boilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = vurtos/Info.plist;
+				INFOPLIST_FILE = boilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -577,7 +577,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = vurtos;
+				PRODUCT_NAME = boilerplate;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -709,7 +709,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "vurtosTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "boilerplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -718,7 +718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "vurtos" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -727,7 +727,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "vurtos" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "boilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
