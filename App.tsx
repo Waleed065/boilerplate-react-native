@@ -1,12 +1,13 @@
 import React, {useEffect} from 'react';
-import {View, Text} from 'react-native';
 import {Provider} from 'react-redux';
 import {NavigationContainer} from '@react-navigation/native';
 import SplashScreen from 'react-native-splash-screen';
+import {PersistGate} from 'redux-persist/integration/react';
+import {SafeAreaProvider} from 'react-native-safe-area-context';
 
 import {persistor, store} from './store';
 import ThemeConfig from './theme';
-import {PersistGate} from 'redux-persist/integration/react';
+import Routes from './routes';
 
 export default function App() {
   useEffect(() => {
@@ -17,11 +18,11 @@ export default function App() {
     <Provider store={store}>
       <PersistGate persistor={persistor} loading={null}>
         <ThemeConfig>
-          <NavigationContainer>
-            <View>
-              <Text>React Native Bolier Plate</Text>
-            </View>
-          </NavigationContainer>
+          <SafeAreaProvider>
+            <NavigationContainer>
+              <Routes />
+            </NavigationContainer>
+          </SafeAreaProvider>
         </ThemeConfig>
       </PersistGate>
     </Provider>
