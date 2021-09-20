@@ -1,0 +1,1 @@
+export const console_log = (log:any) => console.log(JSON.stringify(log, null, 2))
