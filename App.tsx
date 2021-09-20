@@ -1,13 +1,13 @@
-import React, {useEffect} from 'react';
-import {Provider} from 'react-redux';
-import {NavigationContainer} from '@react-navigation/native';
+import React, { useEffect } from 'react';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 import SplashScreen from 'react-native-splash-screen';
-import {PersistGate} from 'redux-persist/integration/react';
-import {SafeAreaProvider} from 'react-native-safe-area-context';
-
-import {persistor, store} from './store';
-import ThemeConfig from './theme';
+import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react';
 import Routes from './routes';
+import { persistor, store } from './store';
+import ThemeConfig from './theme';
+import StyledNavigationContainer from './theme/StyledNavigationContainer';
+
 
 export default function App() {
   useEffect(() => {
@@ -19,9 +19,9 @@ export default function App() {
       <PersistGate persistor={persistor} loading={null}>
         <ThemeConfig>
           <SafeAreaProvider>
-            <NavigationContainer>
+            <StyledNavigationContainer>
               <Routes />
-            </NavigationContainer>
+            </StyledNavigationContainer>
           </SafeAreaProvider>
         </ThemeConfig>
       </PersistGate>
